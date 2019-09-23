@@ -1,0 +1,15 @@
+body{
+  background-color: rgb(241, 245, 248);
+}
+
+$wall_width: 500px;
+$wall_height: 400px;
+
+@import "./house/relative.scss";
+
+@import "./house/absolute.scss";
+
+@import "./house/static.scss";
+
+@import "./house/fixed.scss"
+

@@ -1,0 +1,165 @@
+.static_house{
+  position: static;
+  margin: 20px;
+  margin-top: 820px;
+  .house__roof{
+    position: static;
+    height:0;
+    width: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 350px solid red;
+    .roof__snow{
+      position: static;
+      height:0;
+      width: 0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-bottom: 35px solid snow;
+      margin-left: -30px;
+    }
+    .roof__tube{
+      position: static;
+      width: 40px;
+      height: 200px;
+      margin-left: 100px;
+      background-color: gray;
+
+      .tube__goal{
+        position: static;
+        width: 100%;
+        height: 10%;
+        background-color: black;
+      }
+    }
+    .roof__window{
+      z-index: 1000;
+      position: static;
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      border: 8px solid green;
+      margin-top: -80px;
+      margin-left: -60px;
+
+      .window__frame_vertical{
+        position: static;
+        background-color: black;
+        width: 5%;
+        height: 100%;
+        margin-left: 45%;
+        margin-top: -50%;
+        
+
+      }
+      .window__frame_horizontal{
+        position: static;
+        background-color: black;
+        width: 100%;
+        height: 5%;        
+        margin-top: 45%;
+      }
+    }
+  }
+  
+  .house__wall{
+    box-sizing: border-box;
+    position: static;
+    background-color: greenyellow;
+    border: 1px solid black;
+    width: $wall_width;
+    height: $wall_height;
+
+    .wall__facade{
+      position: static;
+      width: 100%;
+      height: 20%;
+      background-color: gray;
+      margin-bottom: -40%;
+      margin-top: 27%;
+
+      .facade__top{
+        position: static;
+        background-color: brown;
+        width: 100%;
+        height: 20%;
+      }
+    }
+    
+    .wall__door{
+      position: static;
+      width: 20%;
+      height: 50%;
+      background-color: red;
+      margin-left: 40%;
+      box-sizing: border-box;
+      border: 2px solid black;
+
+      .door__lock{
+        position: static;
+        background-color: gray;
+        width: 15%;
+        height: 20%;
+        margin-left: 80%;
+        margin-top: 100%;
+        padding-top: 10%;
+
+        .lock__handle{
+          position: static; 
+          background-color: black;
+          width: 160%;
+          height: 20%;
+          margin-left: -100%;
+          margin-bottom: 90%;
+        }
+
+        .lock__lock{
+          position: static; 
+          background-color: black;
+          width: 20%;
+          height: 20%;
+          margin-left: 40%;
+        }
+      }
+      
+    }
+
+    .wall__window_left{
+      position: static;
+      background-color: yellow;
+      border: 8px solid gray;
+      width: 20%;
+      height: 30%;
+      margin-top: 10%;
+      margin-left: 10%;
+    }
+
+    .wall__window_right{
+      position: static;
+      background-color: yellow;
+      border: 8px solid gray;
+      width: 20%;
+      height: 30%;
+      margin-top: -27%;
+      margin-left: 70%;
+    }
+
+    .window__frame_vertical{
+      position: static;
+      background-color: black;
+      width: 5%;
+      height: 100%;
+      margin-left: 45%;
+      margin-top: -50%;
+      
+
+    }
+    .window__frame_horizontal{
+      position: static;
+      background-color: black;
+      width: 100%;
+      height: 5%;        
+      margin-top: 45%;
+    }
+  }
+}

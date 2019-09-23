@@ -1,0 +1,174 @@
+.fixed_house{
+  position: fixed;
+  margin: 20px;
+  margin-left: 800px;
+  
+  .house__roof{
+    position: fixed;
+    height:0;
+    width: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 350px solid red;
+    .roof__snow{
+      position: fixed;
+      height:0;
+      width: 0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-bottom: 35px solid snow;
+      margin-left: -30px;
+    }
+    .roof__tube{
+      position: fixed;
+      width: 40px;
+      height: 200px;
+      margin-top: 30px;
+      margin-left: 100px;
+      background-color: gray;
+
+      .tube__goal{
+        position: fixed;
+        width: 40px;
+        height: 20px;
+        background-color: black;
+      }
+    }
+    .roof__window{
+      z-index: 1000;
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      border: 8px solid green;
+      margin-top: 180px;
+      margin-left: -60px;
+
+      .window__frame_vertical{
+        position: fixed;
+        background-color: black;
+        width: 5px;
+        height: 100px;
+        margin-left: 50px;
+        
+
+      }
+      .window__frame_horizontal{
+        position: fixed;
+        background-color: black;
+        width: 100px;
+        height: 5px;        
+        margin-top: 45px;
+      }
+    }
+  }
+
+  .house__wall{
+    box-sizing: border-box;
+    position: fixed;
+    background-color: greenyellow;
+    border: 1px solid black;
+    width: $wall_width;
+    height: $wall_height;
+    margin-top:349px;
+
+    .wall__facade{
+      position: fixed;
+      width: 500px;
+      height: 100px;
+      background-color: gray;
+      // margin-bottom: -40%;
+      margin-top: 300px;
+
+      .facade__top{
+        position: fixed;
+        background-color: brown;
+        width: 500px;
+        height: 20px;
+      }
+    }
+    
+    .wall__door{
+      position: fixed;
+      width: 100px;
+      height: 200px;
+      background-color: red;
+      margin-top: 200px;
+      margin-left: 200px;
+      box-sizing: border-box;
+      border: 2px solid black;
+
+      .door__lock{
+        position: fixed;
+        background-color: gray;
+        width: 15px;
+        height: 40px;
+        left: 200px;
+        margin-left: 880px;
+        margin-top: 90px;
+
+        .lock__handle{
+          position: fixed; 
+          background-color: black;
+          width: 20px;
+          height: 5px;
+          margin-top: 10px;
+          margin-left: -10px;
+
+        }
+
+        .lock__lock{
+          position: fixed; 
+          background-color: black;
+          width: 4px;
+          height: 8px;
+          margin-left: 5px;
+          margin-top: 20px;
+        }
+      }
+      
+    }
+
+    .wall__window_left{
+      position: fixed;
+      background-color: yellow;
+      border: 8px solid gray;
+      width: 120px;
+      height: 180px;
+      margin-top: 40px;
+      margin-left: 40px;
+    }
+
+    .wall__window_right{
+      position: fixed;
+      background-color: yellow;
+      border: 8px solid gray;
+      width: 120px;
+      height: 180px;
+      margin-top: 40px;
+      margin-left: 320px
+
+    }
+
+    .window__frame_vertical{
+      position: fixed;
+      background-color: black;
+      width: 5px;
+      height: 180px;
+      margin-left: 60px;       
+
+    }
+    .window__frame_horizontal{
+      position: fixed;
+      background-color: black;
+      width: 120px;
+      height: 5px; 
+      margin-top: 90px;
+    }
+  }
+}
+
+
+
+
+
